@@ -1,0 +1,770 @@
+[
+    {
+        "name": "Hyderabad",
+        "type": "Historical",
+        "description": "Bhagya Nagaram",
+        "state": "Hyderabad",
+        "duration": 5,
+        "price": 125,
+        "latitude": 17.360589,
+        "longitude": 78.4740613,
+        "mapsLink":
+    },
+    {
+        "name": "Shimla",
+        "type": "Hill Station",
+        "description": "Queen of Hills",
+        "state": "Himachal Pradesh",
+        "duration": 4,
+        "price": 100,
+        "latitude": 31.1041526,
+        "longitude": 77.1709729
+    },
+    {
+        "name": "Ooty",
+        "type": "Hill Station",
+        "description": "Queen of hill stations",
+        "state": "Tamil Nadu",
+        "duration": 3,
+        "price": 75,
+        "latitude": 11.4126769,
+        "longitude": 76.7030504
+    },
+    {
+        "name": "Munnar",
+        "type": "Hill Station",
+        "description": "Fascinating hill station of Kerala",
+        "state": "Kerala",
+        "duration": 5,
+        "latitude": 10.0869959,
+        "longitude": 77.0600915
+    },
+    {
+        "name": "Kedarnath",
+        "type": "Pilgrimage",
+        "description": "Kedarnath Attractions",
+        "state": "Uttarakhand",
+        "duration": 4,
+        "latitude": 30.7345609,
+        "longitude": 79.0673204
+    },
+    {
+        "name": "Manali",
+        "type": "Hill Station",
+        "description": "Valley of the Gods",
+        "state": "Himachal Pradesh",
+        "duration": 4,
+        "latitude": 32.26309405,
+        "longitude": 77.18812183241408
+    },
+    {
+        "name": "Amritsar",
+        "type": "Historical & Heritage",
+        "description": "The Pool of Nectar",
+        "state": "Punjab",
+        "latitude": 31.6343083,
+        "longitude": 74.8736788
+    },
+    {
+        "name": "Kodaikanal",
+        "type": "Hill Station",
+        "description": "Princess of Hill stations",
+        "state": "Tamilnadu",
+        "duration": 3,
+        "latitude": 10.273275349999999,
+        "longitude": 77.51160822153315
+    },
+    {
+        "name": "Andaman Islands",
+        "type": "Beach",
+        "description": "Andaman Islands Attractions",
+        "state": "Andaman & Nicobar Islands",
+        "duration": 6,
+        "price": 200,
+        "latitude": 12.61123865,
+        "longitude": 92.83165406414926
+    },
+    {
+        "name": "Pondicherry",
+        "type": "Beach",
+        "description": "Pondicherry Attractions",
+        "state": "Pondicherry",
+        "duration": 3,
+        "latitude": 11.9340568,
+        "longitude": 79.8306447
+    },
+    {
+        "name": "Nainital",
+        "type": "Hill Station",
+        "description": "Foothills of Himalayas",
+        "state": "Uttarakhand",
+        "duration": 4,
+        "latitude": 29.29478295,
+        "longitude": 79.41548093726253
+    },
+    {
+        "name": "Darjeeling",
+        "type": "Hill Station",
+        "description": "Darjeeling Attractions",
+        "state": "West Bengal",
+        "duration": 3,
+        "latitude": 27.0377554,
+        "longitude": 88.263176,
+        "mapsLink":"https://www.google.com/maps/place/Darjeeling,+West+Bengal/@27.0331949,88.2646751,13z/data=!3m1!4b1!4m6!3m5!1s0x39e42e654cf501bb:0x4175555979d4702a!8m2!3d27.0410218!4d88.2662745!16zL20vMDE5amxx?entry=ttu"
+    },
+    {
+        "name": "Coorg",
+        "type": "Hill Station",
+        "description": "Fondly called the Scotland of India",
+        "state": "Karnataka",
+        "duration": 4,
+        "latitude": 12.3225856,
+        "longitude": 75.8900616,
+        "mapsLink":"https://www.google.com/maps/place/Madikeri,+Karnataka+571201/@12.4314672,75.6959008,14z/data=!3m1!4b1!4m6!3m5!1s0x3ba50075627a7fff:0xaf8a66ea4651c1a6!8m2!3d12.4244205!4d75.7381856!16zL20vMDF4OWJ4?entry=ttu"
+    },
+    {
+        "name": "Ellora Caves",
+        "type": "Historical & Heritage",
+        "description": "Ellora Caves Attractions",
+        "state": "Maharashtra",
+        "latitude": 20.026752549999998,
+        "longitude": 75.17751524179019,
+        "mapsLink":""
+    },
+    {
+        "name": "Kochi",
+        "type": "Beach",
+        "description": "The Queen of the Arabian Sea",
+        "state": "Kerala",
+        "duration": 5,
+        "latitude": 9.931308,
+        "longitude": 76.2674136
+    },
+    {
+        "name": "Agra",
+        "type": "City",
+        "description": "Agra Attractions",
+        "state": "Uttarakhand",
+        "duration": 2,
+        "latitude": 27.1752554,
+        "longitude": 78.0098161
+    },
+    {
+        "name": "Mussoorie",
+        "type": "Hill Station",
+        "description": "Gateway to the Yamunotri and Gangotri",
+        "state": "Uttarakhand",
+        "duration": 2,
+        "latitude": 30.4569012,
+        "longitude": 78.0782906
+    },
+    {
+        "name": "Mahabaleshwar",
+        "type": "Hill Station",
+        "description": "Queen of hill stations in Maharashtra",
+        "state": "Maharashtra",
+        "duration": 3,
+        "latitude": 17.893641000000002,
+        "longitude": 73.61316885788803
+    },
+    {
+        "name": "Thekkady",
+        "type": "Hill Station",
+        "description": "Kerala Attractions",
+        "state": "Kerala",
+        "duration": 2,
+        "latitude": 9.5804995,
+        "longitude": 77.181142
+    },
+    {
+        "name": "Chikmagalur",
+        "type": "Hill Station",
+        "description": "Scenic hill town",
+        "state": "Karnataka",
+        "duration": 2,
+        "latitude": 13.318014,
+        "longitude": 75.7738743
+    },
+    {
+        "name": "Gangtok",
+        "type": "Hill Station",
+        "description": "Fascinating hill town",
+        "state": "Sikkim",
+        "latitude": 27.325756900000002,
+        "longitude": 88.69827694810172
+    },
+    {
+        "name": "Wayanad",
+        "type": "Hill Station",
+        "description": "Picturesque plateau nestled",
+        "state": "Kerala",
+        "latitude": 11.715219000000001,
+        "longitude": 76.12690294658198
+    },
+    {
+        "name": "Dharamshala",
+        "type": "Hill Station",
+        "description": "Little Lhasa or Dhasa",
+        "state": "Himachal Pradesh",
+        "latitude": 32.2143039,
+        "longitude": 76.3196717
+    },
+    {
+        "name": "Shillong",
+        "type": "Hill Station",
+        "description": "Picturesque hill stations",
+        "state": "Meghalaya",
+        "latitude": 25.5760446,
+        "longitude": 91.8825282
+    },
+    {
+        "name": "Cherrapunji",
+        "type": "Hill Station",
+        "description": "Land of oranges",
+        "state": "Meghalaya",
+        "latitude": 25.2837969,
+        "longitude": 91.7193603
+    },
+    {
+        "name": "Kullu",
+        "type": "Hill Station",
+        "description": "The ending point of inhabitable world",
+        "state": "Himachal Pradesh",
+        "latitude": 32.00186325,
+        "longitude": 77.37899639741332
+    },
+    {
+        "name": "Lonavala",
+        "type": "Hill Station",
+        "description": "Lonavala Attractions",
+        "state": "Maharashtra",
+        "latitude": 18.7548563,
+        "longitude": 73.4016729
+    },
+    {
+        "name": "Pelling",
+        "type": "Hill Station",
+        "description": "The seat of the religious body",
+        "state": "Sikkim",
+        "latitude": 27.3003722,
+        "longitude": 88.2356503
+    },
+    {
+        "name": "Dalhousie",
+        "type": "Hill Station",
+        "description": "Dalhousie Attractions",
+        "state": "Himachal Pradesh",
+        "latitude": 32.54357545,
+        "longitude": 75.94484088677805
+    },
+    {
+        "name": "Almora",
+        "type": "Hill Station",
+        "description": "Scenic hill station",
+        "state": "Uttarakhand",
+        "latitude": 29.703094999999998,
+        "longitude": 79.43317023326716
+    },
+    {
+        "name": "Lachung",
+        "type": "Hill Station",
+        "description": "Picturesque hill stations",
+        "state": "Sikkim",
+        "latitude": 27.6897097,
+        "longitude": 88.7425876
+    },
+    {
+        "name": "Alleppey",
+        "type": "Beach",
+        "description": "Venice of the East",
+        "state": "Kerala",
+        "latitude": 9.1988871,
+        "longitude": 76.4860494754194
+    },
+    {
+        "name": "Puri",
+        "type": "Beach",
+        "description": "Puri Attractions",
+        "state": "Odisha",
+        "latitude": 19.8076083,
+        "longitude": 85.8252538
+    },
+    {
+        "name": "Kovalam",
+        "type": "Beach",
+        "description": "Kovalam Attractions",
+        "state": "Kerala",
+        "latitude": 8.4004698,
+        "longitude": 76.9788156
+    },
+    {
+        "name": "Vizag",
+        "type": "Beach",
+        "description": "Vizag Attractions",
+        "state": "Andhra Pradesh",
+        "latitude": 17.7231276,
+        "longitude": 83.3012842
+    },
+    {
+        "name": "Kumarakom",
+        "type": "Lake & Backwater",
+        "description": "The Queen of Vembanad",
+        "state": "Kerala",
+        "latitude": 9.5967759,
+        "longitude": 76.4311258
+    },
+    {
+        "name": "Srisailam",
+        "type": "Lake & Backwater",
+        "description": "Srisailam Attractions",
+        "state": "Andhra Pradesh",
+        "latitude": 16.090979400000002,
+        "longitude": 78.8656307623982
+    },
+    {
+        "name": "Athirapally Waterfalls",
+        "type": "Waterfall",
+        "description": "Athirapally Waterfalls Attractions",
+        "state": "Kerala",
+        "latitude": 10.2847989,
+        "longitude": 76.5691181
+    },
+    {
+        "name": "Hogenakkal",
+        "type": "Waterfall",
+        "description": "Niagara of India",
+        "state": "Tamil Nadu",
+        "latitude": 12.1200274,
+        "longitude": 77.7778683
+    },
+    {
+        "name": "Shivanasamudra Falls",
+        "type": "Waterfall",
+        "description": "Shivanasamudra Falls Attractions",
+        "state": "Karnataka",
+        "latitude": 12.3035074,
+        "longitude": 77.1611196
+    },
+    {
+        "name": "Valley Of Flowers",
+        "type": "Nature & Scenic",
+        "description": "Valley Of Flowers Attractions",
+        "state": "Uttarakhand",
+        "duration": 3,
+        "latitude": 30.7430879,
+        "longitude": 79.6177253430334
+    },
+    {
+        "name": "Dandeli",
+        "type": "Adventure / Trekking",
+        "description": "Dandeli Attractions",
+        "state": "Karnataka",
+        "latitude": 15.2490284,
+        "longitude": 74.6236037
+    },
+    {
+        "name": "Panjim",
+        "type": "City",
+        "description": "Panjim Attractions",
+        "state": "Goa",
+        "latitude": 15.4989946,
+        "longitude": 73.8282141
+    },
+    {
+        "name": "Bangalore",
+        "type": "City",
+        "description": "Garden City of India",
+        "state": "Karnataka",
+        "duration": 3,
+        "latitude": 12.9767936,
+        "longitude": 77.590082
+    },
+    {
+        "name": "Bhubaneswar",
+        "type": "City",
+        "description": "The City of Temples",
+        "state": "Odisha",
+        "latitude": 20.2602964,
+        "longitude": 85.8394521
+    },
+    {
+        "name": "Guwahati",
+        "type": "City",
+        "description": "City of Eastern Light",
+        "state": "Assam",
+        "latitude": 26.1805978,
+        "longitude": 91.753943
+    },
+    {
+        "name": "Trivandrum",
+        "type": "City",
+        "description": "Trivandrum Attractions",
+        "state": "Kerala",
+        "latitude": 8.4882267,
+        "longitude": 76.947551
+    },
+    {
+        "name": "Varanasi",
+        "type": "Pilgrimage",
+        "description": "The holy city of Varanasi",
+        "state": "Uttar Pradesh",
+        "duration": 3,
+        "latitude": 25.3356491,
+        "longitude": 83.0076292
+    },
+    {
+        "name": "Haridwar",
+        "type": "Pilgrimage",
+        "description": "Haridwar Attractions",
+        "state": "Uttarakhand",
+        "latitude": 29.91235135,
+        "longitude": 78.00871782398349
+    },
+    {
+        "name": "Tirupati",
+        "type": "Pilgrimage",
+        "description": "Tirupati Attractions",
+        "state": "Andhra Pradesh",
+        "latitude": 13.77928955,
+        "longitude": 79.83512262283737
+    },
+    {
+        "name": "Shirdi",
+        "type": "Pilgrimage",
+        "description": "Shirdi Attractions",
+        "state": "Maharashtra",
+        "latitude": 19.7668121,
+        "longitude": 74.4754386
+    },
+    {
+        "name": "Somnath",
+        "type": "Pilgrimage",
+        "description": "Somnath Attractions",
+        "state": "Gujarat",
+        "latitude": 20.8907001,
+        "longitude": 70.4025266
+    },
+    {
+        "name": "Rameshwaram",
+        "type": "Pilgrimage",
+        "description": "Rameshwaram Attractions",
+        "state": "Tamil Nadu",
+        "duration": 3,
+        "latitude": 9.2844657,
+        "longitude": 79.3125553
+    },
+    {
+        "name": "Rishikesh",
+        "type": "Pilgrimage",
+        "description": "Rishikesh Attractions",
+        "state": "Uttarakhand",
+        "latitude": 30.1086537,
+        "longitude": 78.2916193
+    },
+    {
+        "name": "Sabarimala",
+        "type": "Pilgrimage",
+        "description": "Sabarimala Attractions",
+        "state": "Kerala",
+        "latitude": 9.434588600000001,
+        "longitude": 77.08138690374139
+    },
+    {
+        "name": "Kanyakumari",
+        "type": "Pilgrimage",
+        "description": "A place of great natural beauty",
+        "state": "Tamil Nadu",
+        "latitude": 8.079252,
+        "longitude": 77.5499338
+    },
+    {
+        "name": "Ganpatipule",
+        "type": "Pilgrimage",
+        "description": "Ganpatipule Attractions",
+        "state": "Maharashtra",
+        "latitude": 17.1466952,
+        "longitude": 73.2697524
+    },
+    {
+        "name": "Dwarka",
+        "type": "Pilgrimage",
+        "description": "Dwarka Attractions",
+        "state": "Gujarat",
+        "latitude": 22.2471009,
+        "longitude": 68.9742446
+    },
+    {
+        "name": "Mathura",
+        "type": "Pilgrimage",
+        "description": "Mathura Attractions",
+        "state": "Uttar Pradesh",
+        "latitude": 27.633333,
+        "longitude": 77.583333
+    },
+    {
+        "name": "Gokarna",
+        "type": "Pilgrimage",
+        "description": "Gokarna Attractions",
+        "state": "Karnataka",
+        "latitude": 14.5439629,
+        "longitude": 74.3184418
+    },
+    {
+        "name": "Badrinath",
+        "type": "Pilgrimage",
+        "description": "Badrinath Attractions",
+        "state": "Uttarakhand",
+        "latitude": 30.7423302,
+        "longitude": 79.4930256
+    },
+    {
+        "name": "Vrindavan",
+        "type": "Pilgrimage",
+        "description": "Vrindavan Attractions",
+        "state": "Uttar Pradesh",
+        "latitude": 27.5753726,
+        "longitude": 77.6938045
+    },
+    {
+        "name": "Murudeshwar",
+        "type": "Pilgrimage",
+        "description": "Murudeshwar Attractions",
+        "state": "Karnataka",
+        "latitude": 14.0959549,
+        "longitude": 74.4883354
+    },
+    {
+        "name": "Udupi",
+        "type": "Pilgrimage",
+        "description": "Udupi Attractions",
+        "state": "Karnataka",
+        "latitude": 13.3419169,
+        "longitude": 74.7473232
+    },
+    {
+        "name": "Nashik",
+        "type": "Pilgrimage",
+        "description": "Nashik Attractions",
+        "state": "Maharashtra",
+        "latitude": 20.0112475,
+        "longitude": 73.7902364
+    },
+    {
+        "name": "Kumbakonam",
+        "type": "Pilgrimage",
+        "description": "Kumbakonam Attractions",
+        "state": "Tamil Nadu",
+        "latitude": 10.9645549,
+        "longitude": 79.37173036154906
+    },
+    {
+        "name": "Delhi City",
+        "type": "Historical & Heritage",
+        "description": "The National Capital Territory (NCT)",
+        "state": "Delhi",
+        "duration": 3,
+        "latitude": 28.6559519,
+        "longitude": 77.2811441
+    },
+    {
+        "name": "Jaipur",
+        "type": "Historical & Heritage",
+        "description": "The Pink City",
+        "state": "Rajasthan",
+        "latitude": 26.9154576,
+        "longitude": 75.8189817
+    },
+    {
+        "name": "Ajanta Caves",
+        "type": "Historical & Heritage",
+        "description": "Ajanta Caves Attractions",
+        "state": "Maharashtra",
+        "latitude": 20.552449699999997,
+        "longitude": 75.6995312210475
+    },
+    {
+        "name": "Mysore",
+        "type": "Historical & Heritage",
+        "description": "City of Palaces",
+        "state": "Karnataka",
+        "duration": 3,
+        "latitude": 12.3051828,
+        "longitude": 76.6553609
+    },
+    {
+        "name": "Mumbai",
+        "type": "Historical & Heritage",
+        "description": "Wealthiest City in India",
+        "state": "Maharashtra",
+        "latitude": 19.0785451,
+        "longitude": 72.878176
+    },
+    {
+        "name": "Hampi",
+        "type": "Historical & Heritage",
+        "description": "Hampi Attractions",
+        "state": "Andhra Pradesh",
+        "latitude": 15.3358,
+        "longitude": 76.4610201
+    },
+    {
+        "name": "Madurai",
+        "type": "Historical & Heritage",
+        "description": "Madurai Attractions",
+        "state": "Tamil Nadu",
+        "latitude": 9.9261153,
+        "longitude": 78.1140983
+    },
+    {
+        "name": "Udaipur",
+        "type": "Historical & Heritage",
+        "description": "Venice of the East & City of Lakes",
+        "state": "Rajasthan",
+        "latitude": 24.578721,
+        "longitude": 73.6862571
+    },
+    {
+        "name": "Kanchipuram",
+        "type": "Historical & Heritage",
+        "description": "Kanchipuram Attractions",
+        "state": "Tamil Nadu",
+        "latitude": 12.9647163,
+        "longitude": 79.9839686
+    },
+    {
+        "name": "Jodhpur",
+        "type": "Historical & Heritage",
+        "description": "The Sun City",
+        "state": "Rajasthan",
+        "latitude": 26.2967719,
+        "longitude": 73.0351433
+    },
+    {
+        "name": "Ahmedabad",
+        "type": "Historical & Heritage",
+        "description": "Ahmedabad Attractions",
+        "state": "Gujarat",
+        "latitude": 23.0216238,
+        "longitude": 72.5797068
+    },
+    {
+        "name": "Khajuraho",
+        "type": "Historical & Heritage",
+        "description": "Khajuraho Attractions",
+        "state": "Madhya Pradesh",
+        "latitude": 24.8515132,
+        "longitude": 79.9259786
+    },
+    {
+        "name": "Konark",
+        "type": "Historical & Heritage",
+        "description": "Konark Attractions",
+        "state": "Odisha",
+        "latitude": 19.90742915,
+        "longitude": 86.14201945385827
+    },
+    {
+        "name": "Mahabalipuram",
+        "type": "Historical & Heritage",
+        "description": "Mahabalipuram Attractions",
+        "state": "Tamil Nadu",
+        "latitude": 12.6195981,
+        "longitude": 80.1936497
+    },
+    {
+        "name": "Jaisalmer",
+        "type": "Historical & Heritage",
+        "description": "The Heart of Thar Desert",
+        "state": "Rajasthan",
+        "latitude": 27.02801615,
+        "longitude": 70.7785056232077
+    },
+    {
+        "name": "Thanjavur",
+        "type": "Historical & Heritage",
+        "description": "Thanjavur Attractions",
+        "state": "Tamil Nadu",
+        "latitude": 10.7860267,
+        "longitude": 79.1381497
+    },
+    {
+        "name": "Rann Of Kutch",
+        "type": "Historical & Heritage",
+        "description": "Rann Of Kutch Attractions",
+        "state": "Gujarat",
+        "latitude": 23.790559350000002,
+        "longitude": 70.49681598808152
+    },
+    {
+        "name": "Tiruchirappalli",
+        "type": "Historical & Heritage",
+        "description": "Tiruchirappalli Attractions",
+        "state": "Tamil Nadu",
+        "latitude": 10.804973,
+        "longitude": 78.6870296
+    },
+    {
+        "name": "Alibaug",
+        "type": "Historical & Heritage",
+        "description": "Alibaug Attractions",
+        "state": "Maharashtra",
+        "latitude": 18.6627281,
+        "longitude": 72.8787677
+    },
+    {
+        "name": "Ajmer",
+        "type": "Historical & Heritage",
+        "description": "Invincible Hills",
+        "state": "Rajasthan",
+        "latitude": 26.4691,
+        "longitude": 74.639
+    },
+    {
+        "name": "Bikaner",
+        "type": "Historical & Heritage",
+        "description": "Bikaner Attractions",
+        "state": "Rajasthan",
+        "latitude": 28.0159286,
+        "longitude": 73.3171367
+    },
+    {
+        "name": "Chidambaram",
+        "type": "Historical & Heritage",
+        "description": "Thillai",
+        "state": "Tamil Nadu",
+        "latitude": 11.41018075,
+        "longitude": 79.67222017841891
+    },
+    {
+        "name": "Shravanabelagola",
+        "type": "Historical & Heritage",
+        "description": "Shravanabelagola Attractions",
+        "state": "Karnataka",
+        "latitude": 12.858127,
+        "longitude": 76.4870114
+    },
+    {
+        "name": "Pune",
+        "type": "Historical & Heritage",
+        "description": "Pune Attractions",
+        "state": "Maharashtra",
+        "latitude": 18.521428,
+        "longitude": 73.8544541
+    },
+    {
+        "name": "Gwalior",
+        "type": "Historical & Heritage",
+        "description": "Gwalior Attractions",
+        "state": "Madhya Pradesh",
+        "latitude": 26.2037247,
+        "longitude": 78.1573628
+    },
+    {
+        "name": "Chittorgarh",
+        "type": "Historical & Heritage",
+        "description": "Chittorgarh Attractions",
+        "state": "Rajasthan",
+        "latitude": 24.71779695,
+        "longitude": 74.47210311178024
+    }
+]

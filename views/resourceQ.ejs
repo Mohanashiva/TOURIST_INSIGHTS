@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"> </script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="/css/common.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--Font-awesome - This CSS file will help you to create the icons in the modals, amenities section, etc.-->
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+    <!--Google fonts - you can use the following CSS for the open sans font used in the web application.-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <!-- linking my css files -->
+    <title> page </title>
+</head>
+
+<body>
+    <!-- creating header with sticky-top i.e.,fixed on top-->
+    <header class="text-gray-600 body-font header">
+        <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-2 md:mb-0">
+                <img src="/images/logo.PNG" href="/views/home.ejs" alt="Your Logo" class="w-11 h-13">
+                <span class="ml-3 text-xl">ParKahan</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center sticky-top">
+                <a class="mr-5 hover:text-gray-900">Home</a>
+                <a class="mr-5 hover:text-gray-900">About</a>
+                <a class="mr-5 hover:text-gray-900">Contact</a>
+            </nav>
+            <a href="/signout"
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base md:mt-0">
+                Signout</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+            </button>
+        </div>
+    </header>
+    </nav>
+    </div>
+    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden py-10 pt-48 px-10 pb-10 bg-cover bg-no-repeat bg-fixed"
+        style="background-image: url('/images/stkbgimg.jpg');">
+        <div class="relative flex min-h-screen flex-col jsutify-center overflow-hidden py-20 bg-gray-50 ">
+            <div
+                class="relative bg-white px-6 pb-5 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+                <div class="mx-auto max-w-md">
+                    <div class="divide-y  divide-gray-300/50">
+                        <div class="space-y-6 text-base leading-7 text-ray-600">
+                            <h1 class="text-3xl font-bold mb-4 text-center">find resources</h1>
+                            <form id="hotelForm" action="/process-resource" method="post">
+                                <label for="type">Type of Resource:</label>
+                                <select id="type" name="type">
+                                    <option value="food">Food</option>
+                                    <option value="others">others</option>
+                                </select>
+                                <label for="state">Select a State:</label>
+                                <select name="state" id="state">
+                                    <option value="andhrapradesh">andhrapradesh</option>
+                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                    <option value="assam">assam</option>
+                                    <option value="Bihar">Bihar</option>
+                                    <option value="Chhattisgarh">Chhattisgarh</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Gujarat">Gujarat</option>
+                                    <option value="Haryana">Haryana</option>
+                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                    <option value="Jharkhand">Jharkhand</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                    <option value="Kerala">Kerala</option>
+                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Manipur">Manipur</option>
+                                    <option value="Meghalaya">Meghalaya</option>
+                                    <option value="Mizoram">Mizoram</option>
+                                    <option value="Nagaland">Nagaland</option>
+                                    <option value="Odisha">Odisha</option>
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Rajasthan">Rajasthan</option>
+                                    <option value="Sikkim">Sikkim</option>
+                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                    <option value="Telangana">Telangana</option>
+                                    <option value="Tripura">Tripura</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="Uttarakhand">Uttarakhand</option>
+                                    <option value="West Bengal">West Bengal</option>
+
+                                </select>
+                                <button type="submit"
+                                    class="text-white bg-green-600 hover:bg-green-700 font-medium rounded my-3 px-5 py-2">
+                                    submit
+                                </button>
+                        </div>
+                        </form>
+
+                        <a href="/home"
+                            class="inline-flex my-3 mt-3 items-center bg-blue-400 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base md:mt-0">
+                            go back</a>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.3.4/lib/darkmode-js.min.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+</body>
+
+</html>

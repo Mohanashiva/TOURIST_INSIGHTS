@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js">
+    </script>
+    <style>
+        /* Add a fixed position to the header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            /* Adjust the background color as needed */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            /* Optional: Add a shadow for a subtle effect */
+            z-index: 1000;
+            /* Ensure it's above other content */
+            padding: 10px 0;
+            /* Add padding to adjust the header's height */
+        }
+
+        /* Style the logo and navigation links */
+        .header img {
+            width: 40px;
+            /* Adjust the logo's width as needed */
+            height: auto;
+            /* Maintain aspect ratio */
+            margin-right: 10px;
+            /* Add spacing between logo and text */
+        }
+
+        .header a {
+            color: #333;
+            /* Set the link color */
+            text-decoration: none;
+            /* Remove underlines */
+            margin-right: 15px;
+            /* Add spacing between links */
+            transition: color 0.3s;
+            /* Add a smooth color transition on hover */
+        }
+
+        /* Style the button */
+        .header button {
+            background-color: #f2f2f2;
+            /* Button background color */
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* Change link color and button background on hover */
+        .header a:hover {
+            color: #007BFF;
+            /* Change link color on hover */
+        }
+
+        .header button:hover {
+            background-color: #ddd;
+            /* Change button background color on hover */
+        }
+    </style>
+
+    <link href="/css/common.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--Font-awesome - This CSS file will help you to create the icons in the modals, amenities section, etc.-->
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+    <!--Google fonts - you can use the following CSS for the open sans font used in the web application.-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <!-- linking my css files -->
+
+    <title>
+        <%= title %>
+    </title>
+
+</head>
+
+<body>
+    <!-- creating header with sticky-top i.e.,fixed on top-->
+    <header class="text-gray-600 body-font header">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="/images/logo.PNG" alt="Your Logo" class="w-11 h-13">
+                <span class="ml-3 text-xl">ParKahan</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center sticky-top">
+                <a class="mr-5 hover:text-gray-900">Home</a>
+                <a class="mr-5 hover:text-gray-900">About</a>
+                <a class="mr-5 hover:text-gray-900">Contact</a>
+            </nav>
+            <a href="/signout"
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                Signout</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+            </button>
+        </div>
+    </header>
+    </nav>
+    </div>
+    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden py-10 pt-48 px-10 pb-10 bg-cover bg-no-repeat bg-fixed"
+        style="background-image: url('/images/background-image.jpg');">
+        <div
+            class="relative bg-white px-6 pb-5 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+            <div class="mx-auto max-w-md">
+                <div class="relative mx-auto mb-7 w-fit">
+                    <!-- questions.ejs -->
+                    <form action="/TRecommendations" method="POST">
+                        <div id="questions-set-1" class="p-5">
+                            <!-- First set of questions -->
+                            <label for="region" class="px-3 pb-5 text-xl">1.Which region of India do you want to
+                                explore?</label>
+                            <select id="region" name="region" class="p-5 m-auto text-xl">
+                                <option value="north">North</option>
+                                <option value="south">South</option>
+                                <option value="west">West</option>
+                                <option value="east">East</option>
+                                <!-- we can more options as needed -->
+                            </select>
+                            <br>
+                            <button class="bg-pink-600 hover:bg-pink-800 text-white rounded px-2 py-2 ml-72" id="next-button"
+                                type="button" onclick="showNextSet()">Next</button>
+                        </div>
+                        <div id="questions-set-2" style="display: none;" class="p-5">
+                            <!-- Second set of questions -->
+                            <label for="type" class="px-3 text-l mr-5">What type of place do you want to visit?</label>
+                            <select id="type" name="type" class="p-5 text-xl">
+                                <option value="Hill Station">Hill station</option>
+                                <option value="Historical & Heritage">Historical & Heritage</option>
+                                 <option value="Pilgrimage">Pilgrimage</option>
+                                <option value="City">City</option>
+                                <option value="Beach">Beach</option>
+                                <!-- we can Add more options as needed -->
+                            </select>
+                            <button id="previous-button" type="button" onclick="showPreviousSet()">Previous</button>
+                            <button id="submit-button" type="submit" style="display: none;" class="bg-blue-600 hover:bg-blue-800 text-white rounded px-2 py-2 m-auto" id="next-button">
+                                Submit</button>
+                        </div>
+
+                    </form>
+
+                    <script>
+                        let currentQuestionSet = 1;
+
+                        function showNextSet() {
+                            if (currentQuestionSet < 2) {
+                                document.getElementById(`questions-set-${currentQuestionSet}`).style.display = "none";
+                                currentQuestionSet++;
+                                document.getElementById(`questions-set-${currentQuestionSet}`).style.display = "block";
+
+                                // If it's the last question, show the submit button
+                                if (currentQuestionSet === 2) {
+                                    document.getElementById("submit-button").style.display = "inline-block";
+                                }
+
+                                // If it's not the last question, show the previous button
+                                if (currentQuestionSet < 2) {
+                                    document.getElementById("previous-button").style.display = "inline-block";
+                                }
+                            }
+                        }
+
+                        function showPreviousSet() {
+                            if (currentQuestionSet > 1) {
+                                document.getElementById(`questions-set-${currentQuestionSet}`).style.display = "none";
+                                currentQuestionSet--;
+                                document.getElementById(`questions-set-${currentQuestionSet}`).style.display = "block";
+
+                                // If not on the last question, hide the submit button
+                                document.getElementById("submit-button").style.display = "none";
+
+                                // If it's not the first question, show the next button
+                                if (currentQuestionSet < 2) {
+                                    document.getElementById("next-button").style.display = "inline-block";
+                                }
+
+                                // If it's the first question, hide the previous button
+                                if (currentQuestionSet === 1) {
+                                    document.getElementById("previous-button").style.display = "none";
+                                }
+                            }
+                        }
+                    </script>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.3.4/lib/darkmode-js.min.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+</body>
+
+</html>

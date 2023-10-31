@@ -1,0 +1,143 @@
+{
+      "hotels": [
+        {
+          "name": "ITC Kohenur",
+          "link": "https://www.google.com/maps/place/ITC+Kohenur,+a+Luxury+Collection+Hotel,+Hyderabad/@17.4322885,78.3850953,17z",
+          "latitude": 17.3316,
+          "longitude": 78.4665
+        },
+        {
+          "name": "TajBanjara",
+          "link": "https://www.google.co.in/maps/place/17%C2%B024'34.2%22N+78%C2%B026'55.2%22E/@17.4094925,78.4460945,17z/data=!3m1!4b1!4m4!3m3!8m2!3d17.4094925!4d78.4486694?entry=ttu",
+          "latitude": 17.40949249267578,
+          "longitude": 78.44866943359375
+        },
+        {
+          "name": "Clarkes Hotel",
+          "link": "https://www.google.com/maps/place/Clarkes+Hotel/@31.099855,77.1752533,15.47z/data=!4m9!3m8!1s0x39057895be7a2601:0xcb2d063f0fd83612!5m2!4m1!1i2!8m2!3d31.099855!4d77.1752533!16s%2Fg%2F1tgz3vxr!5m1!1e4?entry=ttu",
+          "latitude": 31.099855,
+          "longitude": 77.1752533
+        }
+      ]
+  }{
+    "hotels": [
+        {
+            "id": 1,
+            "name": "TajBanjara",
+            "link": "https://www.google.co.in/maps/place/17%C2%B024'34.2%22N+78%C2%B026'55.2%22E/@17.4094925,78.4460945,17z/data=!3m1!4b1!4m4!3m3!8m2!3d17.4094925!4d78.4486694?entry=ttu",
+            "latitude": 17.40949249267578,
+            "longitude": 78.44866943359375,
+            "state": null,
+            "type": null,
+            "region": "south",
+            "createdAt": "2023-10-08T07:45:00.038Z",
+            "updatedAt": "2023-10-08T07:45:00.038Z",
+            "userId": null
+        },
+        {
+            "id": 11,
+            "name": "satara villas",
+            "link": "https://www.google.com/maps/place/Saratha+Vilas+Chettinad+Palace+-+Hotel/@10.1959819,78.8083435,15z/data=!4m2!3m1!1s0x0:0xfc4b89fb9564be29?sa=X&ved=2ahUKEwjL1NbalOaBAxXzSGwGHf5gDjwQ_BJ6BAgrEAA&ved=2ahUKEwjL1NbalOaBAxXzSGwGHf5gDjwQ_BJ6BAg6EAc",
+            "latitude": 10.1959819,
+            "longitude": 78.8083435,
+            "state": "andhrapradesh",
+            "type": "hotel",
+            "region": "south",
+            "createdAt": "2023-10-08T09:53:37.481Z",
+            "updatedAt": "2023-10-08T09:53:37.481Z",
+            "userId": 1
+        },
+        {
+            "id": 12,
+            "name": "bunglow",
+            "link": "https://www.google.com/maps/place/The+Bungalow+on+the+Beach-17th+Century,+Tranquebar/@11.0261417,79.8558207,15z/data=!4m2!3m1!1s0x0:0x2f5248ed0d3e5174?sa=X&ved=2ahUKEwjqw5T0lOaBAxUmUWwGHWEWCl8Q_BJ6BAgpEAA&ved=2ahUKEwjqw5T0lOaBAxUmUWwGHWEWCl8Q_BJ6BAgwEAc",
+            "latitude": 11.0261417,
+            "longitude": 79.8558207,
+            "state": "andhrapradesh",
+            "type": "hotel",
+            "region": "south",
+            "createdAt": "2023-10-08T09:54:12.299Z",
+            "updatedAt": "2023-10-08T09:54:12.299Z",
+            "userId": 1
+        },
+        {
+            "id": 13,
+            "name": "Radisson Blu Hotel",
+            "link": "https://www.google.com/maps/place/Radisson+Hotel+Varanasi/@25.3386192,82.9808379,15z/data=!4m2!3m1!1s0x0:0x8aa690e1a7a56c61?sa=X&ved=2ahUKEwjhm7yJleaBAxX8SGwGHfh2A-YQ_BJ6BAg6EAA&ved=2ahUKEwjhm7yJleaBAxX8SGwGHfh2A-YQ_BJ6BAhIEAc",
+            "latitude": 25.3386192,
+            "longitude": 82.9808379,
+            "state": "andhrapradesh",
+            "type": "hotel",
+            "region": "north",
+            "createdAt": "2023-10-08T09:54:40.250Z",
+            "updatedAt": "2023-10-08T09:54:40.250Z",
+            "userId": 1
+        },
+        {
+            "id": 14,
+            "name": "club mahindhra",
+            "link": "https://www.google.com/maps/place/Club+Mahindra+White+Meadows/@32.2237727,77.1958195,15z/data=!4m2!3m1!1s0x0:0xf2ed951925fdf615?sa=X&ved=2ahUKEwjc94yfleaBAxV6UWwGHTWVCUUQ_BJ6BAg5EAA&ved=2ahUKEwjc94yfleaBAxV6UWwGHTWVCUUQ_BJ6BAhCEAc",
+            "latitude": 32.2237727,
+            "longitude": 77.1958195,
+            "state": "andhrapradesh",
+            "type": "hotel",
+            "region": "north",
+            "createdAt": "2023-10-08T09:55:25.799Z",
+            "updatedAt": "2023-10-08T09:55:25.799Z",
+            "userId": 1
+        },
+        {
+            "id": 15,
+            "name": "Shahi Palace Hotel",
+            "link": "https://www.google.com/maps/place/Shahi+Palace+Hotel/@26.9121916,70.910122,15z/data=!4m2!3m1!1s0x0:0x1a5dc7910644a99b?sa=X&ved=2ahUKEwjeueLbl-aBAxXSTWwGHTXeDUoQ_BJ6BAgrEAA&ved=2ahUKEwjeueLbl-aBAxXSTWwGHTXeDUoQ_BJ6BAg3EAc",
+            "latitude": 26.9121916,
+            "longitude": 70.910122,
+            "state": "andhrapradesh",
+            "type": "hotel",
+            "region": "east",
+            "createdAt": "2023-10-08T09:56:38.883Z",
+            "updatedAt": "2023-10-08T09:56:38.883Z",
+            "userId": 1
+        },
+        {
+            "id": 16,
+            "name": "Hotel Bharatpur Palace",
+            "link": "https://www.google.com/maps/place/Hotel+Bharatpur+Palace/@26.4883808,74.5524269,15z/data=!4m2!3m1!1s0x0:0x9f064638206ac134?sa=X&ved=2ahUKEwiQ4_eKmOaBAxUTZ2wGHdMaCUgQ_BJ6BAgsEAA&ved=2ahUKEwiQ4_eKmOaBAxUTZ2wGHdMaCUgQ_BJ6BAgvEAc",
+            "latitude": 26.4883808,
+            "longitude": 74.5524269,
+            "state": "andhrapradesh",
+            "type": "hotel",
+            "region": "east",
+            "createdAt": "2023-10-08T09:58:10.919Z",
+            "updatedAt": "2023-10-08T09:58:10.919Z",
+            "userId": 1
+        },
+        {
+            "id": 17,
+            "name": "Hotel Saluja",
+            "link": "https://www.google.com/maps/place/Hotel+Saluja/@26.7131903,88.4239369,15z/data=!4m2!3m1!1s0x0:0xfb487d426a0d34c1?sa=X&ved=2ahUKEwjsnpasmOaBAxWXcGwGHaC_CZoQ_BJ6BAg1EAA&ved=2ahUKEwjsnpasmOaBAxWXcGwGHaC_CZoQ_BJ6BAg9EAc",
+            "latitude": 26.7131903,
+            "longitude": 88.4239369,
+            "state": "andhrapradesh",
+            "type": "hotel",
+            "region": "west",
+            "createdAt": "2023-10-08T09:59:08.272Z",
+            "updatedAt": "2023-10-08T09:59:08.272Z",
+            "userId": 1
+        },
+        {
+            "id": 18,
+            "name": "Hotel Sonar Bangla Mayapur",
+            "link": "https://www.google.com/maps/place/Hotel+Sonar+Bangla+Mayapur/@23.4471609,88.4670079,15z/data=!4m2!3m1!1s0x0:0x57c259b571746948?sa=X&ved=2ahUKEwjBm9TjmOaBAxUFTWwGHfUTBFsQ_BJ6BAgzEAA&ved=2ahUKEwjBm9TjmOaBAxUFTWwGHfUTBFsQ_BJ6BAhAEAc",
+            "latitude": 23.4471609,
+            "longitude": 88.4670079,
+            "state": "andhrapradesh",
+            "type": "hotel",
+            "region": "west",
+            "createdAt": "2023-10-08T10:00:58.999Z",
+            "updatedAt": "2023-10-08T10:00:58.999Z",
+            "userId": 1
+        }
+    ]
+}
+  

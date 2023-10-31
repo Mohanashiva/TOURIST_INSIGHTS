@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Shimla",
+        "description": "A picturesque hill station in Himachal Pradesh.",
+        "region": "North",
+        "typeOfPlace": "Hillstation"
+    },
+    {
+        "name": "Goa Beach",
+        "description": "Famous for its beautiful beaches and nightlife.",
+        "region": "West",
+        "typeOfPlace": "Coastal"
+    },
+    {
+        "name": "Taj Mahal",
+        "description": "An iconic monument in Agra, Uttar Pradesh.",
+        "region": "North",
+        "typeOfPlace": "Historic"
+    },
+    {
+        "name": "Kanyakumari",
+        "description": "The southernmost tip of India, known for its stunning views.",
+        "region": "South",
+        "typeOfPlace": "Coastal"
+
+    },
+    {
+        "name": "Darjeeling",
+        "description": "Famous for its tea gardens and scenic beauty.",
+        "region": "East",
+        "typeOfPlace": "Hillstation"
+    },
+    {
+        "name": "Varanasi",
+        "description": "A spiritual and historic city on the banks of the Ganges River.",
+        "region": "North",
+        "typeOfPlace": "Pilgrimage"
+    },
+    {
+        "name": "Shimla",
+        "description": "A picturesque hill station in Himachal Pradesh.",
+        "region": "North",
+        "typeOfPlace": "Hillstation"
+    },
+    {
+        "name": "Goa Beach",
+        "description": "Famous for its beautiful beaches and nightlife.",
+        "region": "West",
+        "typeOfPlace": "Coastal"
+    },
+    {
+        "name": "Taj Mahal",
+        "description": "An iconic monument in Agra, Uttar Pradesh.",
+        "region": "North",
+        "typeOfPlace": "Historic"
+    },
+    {
+        "name": "Kanyakumari",
+        "description": "The southernmost tip of India, known for its stunning views.",
+        "region": "South",
+        "typeOfPlace": "Coastal"
+    },
+    {
+        "name": "Darjeeling",
+        "description": "Famous for its tea gardens and scenic beauty.",
+        "region": "East",
+        "typeOfPlace": "Hillstation"
+    },
+    {
+        "name": "Munnar",
+        "description": "A serene hill station in Kerala known for tea plantations.",
+        "region": "South",
+        "typeOfPlace": "Hillstation"
+    },
+    {
+        "name": "Gokarna",
+        "description": "A peaceful coastal town with beautiful beaches in Karnataka.",
+        "region": "South",
+        "typeOfPlace": "Coastal"
+    },
+    {
+        "name": "Leh-Ladakh",
+        "description": "A high-altitude desert region with stunning landscapes in Jammu and Kashmir.",
+        "region": "North",
+        "typeOfPlace": "Adventure"
+    },
+    {
+        "name": "Amritsar",
+        "description": "Home to the Golden Temple, a prominent Sikh pilgrimage site in Punjab.",
+        "region": "North",
+        "typeOfPlace": "Pilgrimage"
+    },
+    {
+        "name": "Kolkata",
+        "description": "A bustling cultural city in West Bengal known for its festivals.",
+        "region": "East",
+        "typeOfPlace": "Historic"
+    },
+    {
+        "name": "Andaman Islands",
+        "description": "A group of tropical islands with pristine beaches and water sports.",
+        "region": "South",
+        "typeOfPlace": "Coastal"
+    },
+    {
+        "name": "Rann of Kutch",
+        "description": "A vast salt marsh in Gujarat known for its unique landscapes.",
+        "region": "West",
+        "typeOfPlace": "Adventure"
+    },
+    {
+        "name": "Khajuraho",
+        "description": "Famous for its intricate temples with erotic sculptures in Madhya Pradesh.",
+        "region": "North",
+        "typeOfPlace": "Historic"
+    },
+    {
+        "name": "Ooty",
+        "description": "A popular hill station in Tamil Nadu surrounded by lush greenery.",
+        "region": "South",
+        "typeOfPlace": "Hillstation"
+    },
+    
+        {
+          "name": "Jagannath Temple",
+          "description": "A famous Hindu temple in Puri, Odisha.",
+          "region": "East",
+          "typeOfPlace": "Pilgrimage"
+        },
+        {
+          "name": "Kamakhya Temple",
+          "description": "A renowned Shakti Peetha temple in Guwahati, Assam.",
+          "region": "East",
+          "typeOfPlace": "Pilgrimage"
+        },
+        {
+          "name": "Dakshineswar Kali Temple",
+          "description": "A popular Kali temple in Kolkata, West Bengal.",
+          "region": "East",
+          "typeOfPlace": "Pilgrimage"
+        },
+        {
+          "name": "Tarapith Temple",
+          "description": "A sacred temple dedicated to Tara Devi in Birbhum, West Bengal.",
+          "region": "East",
+          "typeOfPlace": "Pilgrimage"
+        },
+        {
+          "name": "Kalighat Kali Temple",
+          "description": "One of the oldest Kali temples in Kolkata, West Bengal.",
+          "region": "East",
+          "typeOfPlace": "Pilgrimage"
+        },
+        {
+          "name": "Kamarpukur",
+          "description": "The birthplace of Sri Ramakrishna Paramahamsa in West Bengal.",
+          "region": "East",
+          "typeOfPlace": "Pilgrimage"
+        }
+      
+      
+]

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"> </script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="/css/common.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <!--Font-awesome - This CSS file will help you to create the icons in the modals, amenities section, etc.-->
+  <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+  <!--Google fonts - you can use the following CSS for the open sans font used in the web application.-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+  <!-- linking my css files -->
+  <title> page </title>
+</head>
+
+<body>
+  <!-- creating header with sticky-top i.e.,fixed on top-->
+  <header class="text-gray-600 body-font header">
+    <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-2 md:mb-0">
+        <img src="/images/logo.PNG" href="/views/home.ejs" alt="Your Logo" class="w-11 h-13">
+        <span class="ml-3 text-xl">ParKahan</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center sticky-top">
+        <a class="mr-5 hover:text-gray-900">Home</a>
+        <a class="mr-5 hover:text-gray-900">About</a>
+        <a class="mr-5 hover:text-gray-900">Contact</a>
+      </nav>
+      <a href="/signout"
+        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base md:mt-0">
+        Signout</a>
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+      </button>
+    </div>
+  </header>
+  </nav>
+  </div>
+  <div
+    class="relative flex min-h-screen flex-col justify-center overflow-hidden py-10 pt-48 px-10 pb-10 bg-cover bg-no-repeat bg-fixed"
+    style="background-image: url('/images/stkbgimg.jpg');">
+    <div class="relative flex min-h-screen flex-col jsutify-center overflow-hidden py-20 bg-gray-50 ">
+      <div
+        class="relative bg-white px-6 pb-5 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+        <div class="mx-auto max-w-md">
+          <div class="divide-y  divide-gray-300/50">
+            <div class="space-y-6 text-base leading-7 text-ray-600">
+              <h1 class="text-3xl font-bold mb-4 text-center">Your hotels</h1>
+
+              <% if (hotels.length> 0) { %>
+                <table class="table-auto w-full">
+                  <thead>
+                    <tr>
+                      <th class="px-4 py-2">Hotel Name</th>
+                      <th class="px-4 py-2">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% hotels.forEach(hotel=> { %>
+                      <tr>
+                        <td class="border px-4 py-2">
+                          <%= hotel.name %>
+                        </td>
+                        <td class="border px-4 py-2">
+                          <a href="#" class="text-red-500 hover:text-red-700" onclick="deleteHotel(<%= hotel.id %>)">
+                            <span class="fas fa-trash-alt"></span> Delete
+                          </a>
+                        </td>
+                      </tr>
+                      <% }); %>
+                  </tbody>
+                </table>
+                <% } else { %>
+                  <p>No hotels added yet.</p>
+                  <% } %>
+                    <br><a href="/home/stakeholderQ"
+                      class="inline-flex my-3 mt-3 items-center bg-blue-400 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base md:mt-0">
+                      go back</a>
+                      <br>  
+                      <a  href="/home/stakeholderQ" class="flex items-center justify-center w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto gap-x-2 hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>Add hotel</span>
+                      </a>
+                    <script>
+                      function deleteHotel(id) {
+                        fetch(`/hotel/${id}`, {
+                          method: "delete",
+                          headers: { "Content-Type": "application/json" },
+                          body: JSON.stringify({
+
+                          })
+                        })
+                          .then((res) => {
+                            if (res.ok) {
+                              window.location.reload();
+                            }
+                          })
+                          .catch((err) => console.error(err));
+                      }
+                    </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.3.4/lib/darkmode-js.min.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+</body>
+
+</html>
