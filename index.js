@@ -95,6 +95,12 @@ app.get("/signup", (req, res) => {
   });
 });
 
+app.get("/aboutPage", (req, res) => {
+  res.render("aboutPage", {
+    title: "aboutPage",
+  });
+});
+
 app.get("/parkahan", (req, res) => {
   res.render("index", {
     title: "index",

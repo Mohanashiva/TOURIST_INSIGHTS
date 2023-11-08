@@ -54,13 +54,14 @@
                 <div class="mx-auto max-w-md">
                     <div class="divide-y  divide-gray-300/50">
                         <div class="space-y-6 text-base leading-7 text-ray-600">
-                            <h1 class="text-3xl font-bold mb-4 text-center">find resources</h1>
+                            <h1 class="text-3xl font-bold mb-4 text-center">Find Products</h1>
                             <form id="hotelForm" action="/process-resource" method="post">
-                                <label for="type">Type of Resource:</label>
+                                <label for="type" class="my-6" >Type of Resource:</label>
                                 <select id="type" name="type">
                                     <option value="food">Food</option>
                                     <option value="others">others</option>
                                 </select>
+                                <br>
                                 <label for="state">Select a State:</label>
                                 <select name="state" id="state">
                                     <option value="andhrapradesh">andhrapradesh</option>
@@ -93,8 +94,9 @@
                                     <option value="West Bengal">West Bengal</option>
 
                                 </select>
+                                <br>
                                 <button type="submit"
-                                    class="text-white bg-green-600 hover:bg-green-700 font-medium rounded my-3 px-5 py-2">
+                                    class="text-white bg-green-600 hover:bg-green-700 font-medium rounded my-6 px-5 py-2">
                                     submit
                                 </button>
                         </div>

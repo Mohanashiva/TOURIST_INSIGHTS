@@ -95,8 +95,7 @@
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center sticky-top">
                 <a class="mr-5 hover:text-gray-900">Home</a>
-                <a class="mr-5 hover:text-gray-900">About</a>
-                <a class="mr-5 hover:text-gray-900">Contact</a>
+                <a class="mr-5 hover:text-gray-900" href="/aboutPage">About</a>
             </nav>
             <a href="/signout"
                 class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
@@ -120,9 +119,9 @@
                     <form action="/TRecommendations" method="POST">
                         <div id="questions-set-1" class="p-5">
                             <!-- First set of questions -->
-                            <label for="region" class="px-3 pb-5 text-xl">1.Which region of India do you want to
-                                explore?</label>
-                            <select id="region" name="region" class="p-5 m-auto text-xl">
+                            <label for="region" class="px-3 pb-5 text-l font-bold font-serif">1. Region of India do you want to explore?</label>
+                           
+                            <select id="region" name="region" class="p-5 m-auto text-xl font-serif">
                                 <option value="north">North</option>
                                 <option value="south">South</option>
                                 <option value="west">West</option>
@@ -130,13 +129,13 @@
                                 <!-- we can more options as needed -->
                             </select>
                             <br>
-                            <button class="bg-pink-600 hover:bg-pink-800 text-white rounded px-2 py-2 ml-72" id="next-button"
+                            <button class="bg-pink-600 hover:bg-pink-800 text-white rounded px-2 py-2 ml-72 font-sans" id="next-button"
                                 type="button" onclick="showNextSet()">Next</button>
                         </div>
                         <div id="questions-set-2" style="display: none;" class="p-5">
                             <!-- Second set of questions -->
-                            <label for="type" class="px-3 text-l mr-5">What type of place do you want to visit?</label>
-                            <select id="type" name="type" class="p-5 text-xl">
+                            <label for="type" class="px-3 pb-5 text-l font-bold font-serif">2. What type of place do you want to visit?</label>
+                            <select id="type" name="type" class="p-5 text-xl font-serif">
                                 <option value="Hill Station">Hill station</option>
                                 <option value="Historical & Heritage">Historical & Heritage</option>
                                  <option value="Pilgrimage">Pilgrimage</option>
