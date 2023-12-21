@@ -14,11 +14,6 @@ module.exports = (sequelize, DataTypes) => {
       User.hasMany(models.Location, {
         foreignKey: "userId",
       });
-
-      // Define the association with Resource model
-      User.hasMany(models.Resource, {
-        foreignKey: "userId",
-      });
     }
   }
 

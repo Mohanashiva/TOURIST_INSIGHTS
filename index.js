@@ -565,6 +565,6 @@ app.delete("/resource/:id", async function (request, response) {
 });
 
 // Start the server
-app.listen(5000, () => {
+app.listen(4000, () => {
   console.log("Server is running on port 5000");
 });
