@@ -5,8 +5,9 @@ Machine Learning, Python, PostgreSQL DB, Express.js, Tailwind CSS, Node.js
 business details for enhancing visibility and success.
 
 live link : https://par-kahan.onrender.com
-
 screenshots:
+
+
 ![image](https://github.com/Mohanashiva/TOURIST_INSIGHTS/assets/106060739/02bdc501-6cd3-4adc-992b-3ef894dfbabc)
 ![image](https://github.com/Mohanashiva/TOURIST_INSIGHTS/assets/106060739/1b52c1f6-ff7c-4528-9058-a417c2f25bee)
 ![image](https://github.com/Mohanashiva/TOURIST_INSIGHTS/assets/106060739/b8561e0e-32d6-4d7f-bc49-9905f1c9ad0c)
